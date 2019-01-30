@@ -1,0 +1,319 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"no",
+				"no-repeat\tbackground-repeat"
+			],
+			[
+				"inline",
+				"inline-block\tdisplay"
+			],
+			[
+				"in",
+				"inherit\tfont-size"
+			],
+			[
+				"input",
+				"input\tTag"
+			],
+			[
+				"list-group",
+				"list-group-item"
+			],
+			[
+				"list",
+				"list-group-item"
+			],
+			[
+				"blockquote",
+				"blockquote-footer"
+			],
+			[
+				"text",
+				"text-center"
+			],
+			[
+				"col",
+				"col-order-3"
+			],
+			[
+				"col-sm",
+				"col-sm-4"
+			],
+			[
+				"w",
+				"w-100"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"jo",
+				"job_id\tparam"
+			],
+			[
+				"get",
+				"get_object_or_404\tmodule"
+			],
+			[
+				"pa",
+				"path\tmodule"
+			],
+			[
+				"H",
+				"H1\tTag"
+			],
+			[
+				"re",
+				"request\tparam"
+			],
+			[
+				"na",
+				"namer"
+			],
+			[
+				"num",
+				"num2\tparam"
+			],
+			[
+				"sys",
+				"system\tfunction"
+			],
+			[
+				"el",
+				"Elif"
+			],
+			[
+				"h",
+				"h1\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Controlinstall",
+				"Package Control: Install Package"
+			],
+			[
+				"liv",
+				"LiveReload: Self test"
+			],
+			[
+				"Package Control: ints",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: isnta",
+				"Package Control: Install Package"
+			],
+			[
+				"package contro",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Con",
+				"Package Control: Install Package"
+			],
+			[
+				"emmett",
+				"Emmet: Go to Matching Pair"
+			],
+			[
+				"",
+				"Changelog"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/JTL/AppData/Local/Temp/Rar$DRa10876.20726/fontawesome-free-5.4.2-web/css/svg-with-js.css",
+		"/C/Users/JTL/AppData/Local/Temp/Rar$DRa10876.14910/fontawesome-free-5.4.2-web/css/all.css",
+		"/C/Users/JTL/AppData/Local/Temp/Rar$DRa10876.10452/fontawesome-free-5.4.2-web/css/fontawesome.css",
+		"/C/Users/JTL/Desktop/BS4-Project/css/bootstrap.css",
+		"/C/Users/JTL/Desktop/BS4-Project/index.html",
+		"/C/Users/JTL/Desktop/BS4-Project/index2.html",
+		"/C/Users/JTL/Desktop/portfolio-project/portfolio/jobs/templates/jobs/home.html",
+		"/C/Users/JTL/Desktop/portfolio-project/portfolio/jobs/templates/jobs/detail.html",
+		"/C/Users/JTL/Desktop/portfolio-project/portfolio/jobs/views.py",
+		"/C/Users/JTL/Desktop/portfolio-project/portfolio/jobs/models.py",
+		"/C/Users/JTL/Desktop/portfolio-project/portfolio/portfolio/urls.py",
+		"/C/Users/JTL/Desktop/portfolio-project/portfolio/jobs/admin.py",
+		"/C/Users/JTL/Desktop/portfolio-project/portfolio/portfolio/settings.py",
+		"/F/DropBox/Python/namer_module.py",
+		"/F/DropBox/Python/Advanced.py",
+		"/F/DropBox/Python/FizzBuzz.py",
+		"/F/Dropbox/Python/hello.py",
+		"/F/Dropbox/New Learning/JQuery/index.html",
+		"/C/Users/JTL/AppData/Roaming/Sublime Text 3/Packages/Emmet/Default (Windows).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 250.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

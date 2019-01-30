@@ -54,6 +54,10 @@ p.lead {
   font-size: 1.5rem;
 }
 
+.social-icons {
+
+}
+
 .social-icons a {
   display: inline-block;
   height: 3.5rem;
@@ -65,6 +69,8 @@ p.lead {
   font-size: 1.5rem;
   line-height: 3.5rem;
   margin-right: 1rem;
+  transition: color 1s ease-in;
+  -moz-transition: background-color 0.2s ease-in;
 }
 
 .social-icons a:last-child {
@@ -73,6 +79,10 @@ p.lead {
 
 .social-icons a:hover {
   background-color: #09f;
+}
+
+.social-icons, i {
+  font-size: 0.3rem;
 }
 
 .dev-icons {
@@ -208,6 +218,27 @@ a:hover, a:focus, a:active {
 
 }
 
+li i {
+  font-size: 3rem;
+  transition: color 0.25s ease;
+}
+
+i.fab {
+  font-size: 3rem;
+}
+
+i.fab:hover {
+  color: rgba(0, 153, 255, 0.5);
+}
+
+.fa-li {
+  font-size: 1em;
+}
+
+.fa-li:hover {
+  color: rgba(0, 153, 255, 0.0);
+}
+
 .own-icons {
   font-size:3rem;
   opacity: 0.55;
@@ -235,3 +266,36 @@ a:hover, a:focus, a:active {
 
  
 }
+
+.social-icons i {
+  font-size: 2rem;
+}
+
+.social-icons i:hover {
+  color: white;
+}
+
+/*Icon tooltips*/
+/*.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 100%;
+  background-color: #09f;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /*Position the tooltip
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}*/
