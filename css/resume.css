@@ -70,7 +70,10 @@ p.lead {
   line-height: 3.5rem;
   margin-right: 1rem;
 /*  transform: rotate(100deg);*/
-  transition: color 1s ease-in;
+  transition-property: transform, background;
+  transition-duration: 1s, 1s;
+/*  transition: color 1s ease-in;*/
+    
   -moz-transition: background-color 0.2s ease-in;
   
 }
@@ -81,7 +84,8 @@ p.lead {
 
 .social-icons a:hover {
   background-color: #09f;
-  transform: rotate(-45deg);
+   transform-origin: center;
+  transform: rotate(-45deg) scale(1.5);
   transition: 0.4s ease;
 }
 
@@ -103,10 +107,29 @@ social-icons small i:hover {
   color: #09f;
 }
 
+#sideNav, #sideNav img, #sideNav li {
+    transition-property: all;
+  transition-duration: 1s, 1s;
+}
+
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
   letter-spacing: 0.05rem;
   text-transform: uppercase;
+}
+
+#sideNav img:hover {
+    transform-origin: bottom;
+    transform: scale(1.5);
+    transition-property: transform;
+    transition: 1.5s;
+}
+
+#sideNav li:hover {
+    transform-origin: center;
+    transform: scale(1.6);
+    transition-property: transform;
+    transition: 0.3s;
 }
 
 #sideNav .navbar-toggler:focus {
