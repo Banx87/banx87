@@ -55,7 +55,7 @@ p.lead {
 }
 
 .social-icons {
-
+    
 }
 
 .social-icons a {
@@ -69,8 +69,10 @@ p.lead {
   font-size: 1.5rem;
   line-height: 3.5rem;
   margin-right: 1rem;
+/*  transform: rotate(100deg);*/
   transition: color 1s ease-in;
   -moz-transition: background-color 0.2s ease-in;
+  
 }
 
 .social-icons a:last-child {
@@ -79,10 +81,18 @@ p.lead {
 
 .social-icons a:hover {
   background-color: #09f;
+  transform: rotate(-45deg);
+  transition: 0.4s ease;
 }
+
+
 
 .social-icons, i {
   font-size: 0.3rem;
+}
+
+social-icons small i:hover {
+    transform: rotate(45deg);
 }
 
 .dev-icons {
@@ -195,10 +205,13 @@ section.resume-section .resume-item .resume-date {
 
 a {
   color: #09f;
+    animation-play-state: paused;
 }
 
 a:hover, a:focus, a:active {
   color: #09f;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
 }
 
 .logos{
