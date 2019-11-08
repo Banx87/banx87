@@ -54,9 +54,7 @@ p.lead {
   font-size: 1.5rem;
 }
 
-.social-icons {
-    
-}
+.social-icons {}
 
 .social-icons a {
   display: inline-block;
@@ -69,13 +67,13 @@ p.lead {
   font-size: 1.5rem;
   line-height: 3.5rem;
   margin-right: 1rem;
-/*  transform: rotate(100deg);*/
+  /*  transform: rotate(100deg);*/
   transition-property: transform, background;
   transition-duration: 1s, 1s;
-/*  transition: color 1s ease-in;*/
-    
+  /*  transition: color 1s ease-in;*/
+
   -moz-transition: background-color 0.2s ease-in;
-  
+
 }
 
 .social-icons a:last-child {
@@ -84,19 +82,26 @@ p.lead {
 
 .social-icons a:hover {
   background-color: #09f;
-   transform-origin: center;
+  transform-origin: center;
   transform: rotate(-45deg) scale(1.5);
   transition: 0.4s ease;
 }
 
+.smalltxt {
+  font-size: 32px;
+  justify-content: space-around;
+}
 
 
-.social-icons, i {
+
+
+.social-icons,
+i {
   font-size: 0.3rem;
 }
 
 social-icons small i:hover {
-    transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .dev-icons {
@@ -107,8 +112,10 @@ social-icons small i:hover {
   color: #09f;
 }
 
-#sideNav, #sideNav img, #sideNav li {
-    transition-property: all;
+#sideNav,
+#sideNav img,
+#sideNav li {
+  transition-property: all;
   transition-duration: 1s, 1s;
 }
 
@@ -119,17 +126,17 @@ social-icons small i:hover {
 }
 
 #sideNav img:hover {
-    transform-origin: bottom;
-    transform: scale(1.5);
-    transition-property: transform;
-    transition: 1.5s;
+  transform-origin: bottom;
+  transform: scale(1.5);
+  transition-property: transform;
+  transition: 1.5s;
 }
 
 #sideNav li:hover {
-    transform-origin: center;
-    transform: scale(1.6);
-    transition-property: transform;
-    transition: 0.3s;
+  transform-origin: center;
+  transform: scale(1.6);
+  transition-property: transform;
+  transition: 0.3s;
 }
 
 #sideNav .navbar-toggler:focus {
@@ -152,6 +159,7 @@ social-icons small i:hover {
     width: 17rem;
     height: 100vh;
   }
+
   #sideNav .navbar-brand {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -159,11 +167,13 @@ social-icons small i:hover {
     margin: auto auto 0;
     padding: 0.5rem;
   }
+
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
   }
+
   #sideNav .navbar-collapse {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -177,6 +187,7 @@ social-icons small i:hover {
     width: 100%;
     margin-bottom: auto;
   }
+
   #sideNav .navbar-collapse .navbar-nav {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -184,9 +195,11 @@ social-icons small i:hover {
     flex-direction: column;
     width: 100%;
   }
+
   #sideNav .navbar-collapse .navbar-nav .nav-item {
     display: block;
   }
+
   #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
     display: block;
   }
@@ -206,6 +219,7 @@ section.resume-section .resume-item .resume-date {
   section.resume-section {
     min-height: 100vh;
   }
+
   section.resume-section .resume-item .resume-date {
     min-width: 18rem;
   }
@@ -223,33 +237,35 @@ section.resume-section .resume-item .resume-date {
 }
 
 .text-primary {
-  color:#09f !important;
+  color: #09f !important;
 }
 
 a {
   color: #09f;
-    animation-play-state: paused;
+  animation-play-state: paused;
 }
 
-a:hover, a:focus, a:active {
+a:hover,
+a:focus,
+a:active {
   color: #09f;
-    animation-iteration-count: infinite;
-    animation-play-state: running;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
 }
 
-.logos{
+.logos {
   display: inline-block;
-  vertical-align:middle;
+  vertical-align: middle;
   background-repeat: no-repeat;
   opacity: 0.65;
 
 }
 
-.django{
+.django {
   background-image: url("img/django-logo.png");
   width: 65px;
-  height:23px;
- 
+  height: 23px;
+
 
 
 }
@@ -276,12 +292,12 @@ i.fab:hover {
 }
 
 .own-icons {
-  font-size:3rem;
+  font-size: 3rem;
   opacity: 0.55;
   sbackground-color: #09f;
   color: #09f !important;
   margin-right: auto;
-  margin-left :auto;
+  margin-left: auto;
   vertical-align: middle !important;
 }
 
@@ -290,17 +306,17 @@ i.fab:hover {
 }
 
 .own-icons img:hover {
-  dopacity:0.1;
-  background:url("images/django-blue.png");
-   vertical-align: middle;
+  dopacity: 0.1;
+  background: url("images/django-blue.png");
+  vertical-align: middle;
 }
 
 .own-icons img {
-  opacity: 1;  
+  opacity: 1;
   display: block;
   transition: .5s ease;
 
- 
+
 }
 
 .social-icons i {
