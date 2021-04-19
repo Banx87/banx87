@@ -5,7 +5,9 @@
  */
 
 body {
-  font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
   padding-top: 54px;
   color: #868e96;
 }
@@ -23,7 +25,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   text-transform: uppercase;
   color: #343a40;
@@ -50,11 +54,14 @@ p.lead {
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
-  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1.5rem;
 }
 
-.social-icons {}
+.social-icons {
+}
 
 .social-icons a {
   display: inline-block;
@@ -73,7 +80,6 @@ p.lead {
   /*  transition: color 1s ease-in;*/
 
   -moz-transition: background-color 0.2s ease-in;
-
 }
 
 .social-icons a:last-child {
@@ -91,9 +97,6 @@ p.lead {
   font-size: 32px;
   justify-content: space-around;
 }
-
-
-
 
 .social-icons,
 i {
@@ -258,16 +261,12 @@ a:active {
   vertical-align: middle;
   background-repeat: no-repeat;
   opacity: 0.65;
-
 }
 
 .django {
   background-image: url("img/django-logo.png");
   width: 65px;
   height: 23px;
-
-
-
 }
 
 li i {
@@ -288,7 +287,7 @@ i.fab:hover {
 }
 
 .fa-li:hover {
-  color: rgba(0, 153, 255, 0.0);
+  color: rgba(0, 153, 255, 0);
 }
 
 .own-icons {
@@ -314,9 +313,7 @@ i.fab:hover {
 .own-icons img {
   opacity: 1;
   display: block;
-  transition: .5s ease;
-
-
+  transition: 0.5s ease;
 }
 
 .social-icons i {
