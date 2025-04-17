@@ -9,7 +9,6 @@ body {
     "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol", "Noto Color Emoji";
   padding-top: 54px;
-  color: #868e96;
 }
 
 @media (min-width: 992px) {
@@ -91,6 +90,21 @@ p.lead {
   transform-origin: center;
   transform: rotate(-45deg) scale(1.5);
   transition: 0.4s ease;
+}
+
+.resume-content {
+  margin: 0;
+}
+
+.resume-content ul {
+  max-width: 40rem;
+  padding-left: 0;
+  list-style: none;
+}
+
+.resume-content li {
+  list-style: none;
+  padding: 0.5rem 0;
 }
 
 .smalltxt {
@@ -348,3 +362,84 @@ i.fab:hover {
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }*/
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.project-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 30px;
+}
+
+.project-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  background-color: #f0f4f8;
+}
+
+.card-link {
+  display: block;
+  text-decoration: none;
+  color: inherit; /* No need to change the text color, inherit from parent */
+}
+
+.project-card h3 {
+  font-size: 1.3em;
+  margin-bottom: 10px;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.project-card p {
+  font-size: 1em;
+  color: #666;
+}
+
+.project-card a {
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+.project-card:hover a {
+  color: #007bff; /* Change link color on hover */
+}
+
+.project-card h3:hover {
+  color: #007bff; /* Change header color on hover */
+}
+
+/* Add color to card borders */
+.project-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5px;
+  height: 100%;
+  background-color: #007bff; /* Blue border for extra pop */
+  transition: height 0.3s ease;
+}
+
+.project-card:hover::before {
+  height: 100%; /* Full height blue border when hovering */
+}
