@@ -411,6 +411,7 @@ i.fab:hover {
 }
 
 .project-card p {
+  text-align: justify;
   font-size: 1em;
   color: #666;
 }
